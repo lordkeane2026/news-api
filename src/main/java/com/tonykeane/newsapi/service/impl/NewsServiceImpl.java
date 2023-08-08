@@ -15,7 +15,7 @@ public class NewsServiceImpl implements NewsService {
 
     @Override
     public WebResponse getNewsHeadline() {
-        return restTemplate.getForEntity("https://newsapi.org/v2/top-headlines?country=us&apiKey=" + API_KEY, WebResponse.class).getBody();
+        return restTemplate.getForEntity("https://newsapi.org/v2/top-headlines?country=id&apiKey=" + API_KEY, WebResponse.class).getBody();
     }
 
     @Override
