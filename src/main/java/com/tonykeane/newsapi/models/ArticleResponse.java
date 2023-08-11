@@ -1,14 +1,12 @@
-package com.tonykeane.newsapi.model;
+package com.tonykeane.newsapi.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString
 public class ArticleResponse {
 
     private SourceResponse sourceResponse;

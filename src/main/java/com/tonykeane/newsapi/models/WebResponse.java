@@ -1,5 +1,6 @@
-package com.tonykeane.newsapi.model;
+package com.tonykeane.newsapi.models;
 
+import com.tonykeane.newsapi.entity.Auditable;
 import lombok.*;
 
 import java.util.List;
@@ -9,6 +10,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@ToString
 public class WebResponse {
     private String status;
     private Integer totalResults;
